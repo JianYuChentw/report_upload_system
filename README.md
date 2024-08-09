@@ -81,15 +81,16 @@
 # **專案資訊**
 - **軟體開發作者**: Jian-Yu Chen
 - **聯絡方式**: [coke818572@gmail.com](mailto:email@example.com)
-- **GitHub**: [JianYuChentw](https://github.com/JianYuChentw)
--- 
-- **介面設計作者**: Lauren Huang
-- **聯絡方式**: [rukihuang382@gmail.com](mailto:email@example.com)
-- **Behance**: [Huang Lauren](https://www.behance.net/ruki38291d4)
+- **GitHub**: [JianYuChentw](https://github.com/JianYuChentw) 
 
- **使用技術**
+**使用技術**
 - **前端框架**: PyQt6
 - **後端技術**: Python 3
 - **資料監聽**: watchdog
 - **自動化爬蟲**: Selenium 
 - **版本控制**: Git
+--- 
+- **介面設計作者**: Lauren Huang
+- **聯絡方式**: [rukihuang382@gmail.com](mailto:email@example.com)
+- **Behance**: [Huang Lauren](https://www.behance.net/ruki38291d4)
+
