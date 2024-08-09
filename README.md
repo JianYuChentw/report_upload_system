@@ -75,3 +75,21 @@
 
 > **案件處理與結果展示**  
 > 系統將再次前往指定網站執行案件處理操作，並在此頁面中渲染結果。成功處理的案件，其對應的圖片將被移動至結案資料夾 `close_case` 中。
+
+---
+
+# **專案資訊**
+- **軟體開發作者**: Jian-Yu Chen
+- **聯絡方式**: [coke818572@gmail.com](mailto:email@example.com)
+- **GitHub**: [JianYuChentw](https://github.com/JianYuChentw)
+-- 
+- **介面設計作者**: Lauren Huang
+- **聯絡方式**: [rukihuang382@gmail.com](mailto:email@example.com)
+- **Behance**: [Huang Lauren](https://www.behance.net/ruki38291d4)
+
+ **使用技術**
+- **前端框架**: PyQt6
+- **後端技術**: Python 3
+- **資料監聽**: watchdog
+- **自動化爬蟲**: Selenium 
+- **版本控制**: Git
