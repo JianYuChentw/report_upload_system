@@ -50,7 +50,7 @@ def run_vehicle_information_spider(input_data, username, password):
                 results.append({'caseNumber': case_number, 'carNumber': '無對應車牌', 'adjustLaw': '', 'adjustLawcontent': ''})
 
         loginData = {'account': username, 'password': password}
-        print(results)
+        # print(results)
         return {"status": True, "data": results, 'loginData': loginData}
 
     except Exception as e:

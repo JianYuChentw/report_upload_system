@@ -606,7 +606,7 @@ class Page2(QWidget):
     # 檢查必選
     def check_all_reports_selected(self):
         for content, car_number_input, radio1, radio2, combobox, law_checkbox, law_combobox1, dropdown, input_field in self.case_entries:
-            print('檢查',radio2.isChecked(), len(input_field.toPlainText()))
+            # print('檢查',radio2.isChecked(), len(input_field.toPlainText()))
             if content['carNumber'] == '無對應車牌':
                 continue
             if not radio1.isChecked() and not radio2.isChecked():
@@ -691,7 +691,7 @@ class Page2(QWidget):
         report_data = []
         for content, car_number_input, radio1, radio2, combobox, law_checkbox, law_combobox1, dropdown, input_field in self.case_entries:
         # for content, radio1, radio2, spinbox in self.case_entries:
-            print(car_number_input.text())
+            # print(car_number_input.text())
             # 檢查車牌號是否為'無對應車牌'，如果是，則略過該案件
             if content['carNumber'] == '無對應車牌':
                 continue
@@ -718,7 +718,7 @@ class Page2(QWidget):
                 }
             
             report_data.append(entry)
-        print(report_data)
+        # print(report_data)
         return report_data
 
     # 發送帳號及表單資料運行爬蟲

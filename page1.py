@@ -184,7 +184,7 @@ class Page1(QWidget):
 
         # 獲取檔案列
         self.case_files = get_sorted_filenames(caseImg)
-        print(self.case_files)
+        # print(self.case_files)
         # print('圖片檔案列:', caseImg)
 
         self.items_per_page = 10
