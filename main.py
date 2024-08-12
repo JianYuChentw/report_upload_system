@@ -77,7 +77,7 @@ if __name__ == '__main__':
     # }
     # """)
     # 設定視窗 logo
-    app.setWindowIcon(QIcon('sysImg\logo.png'))
+    app.setWindowIcon(QIcon('resources\sysImg\logo.png'))
     window = MainWindow()
     window.show()
     sys.exit(app.exec())

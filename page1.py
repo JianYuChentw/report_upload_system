@@ -121,7 +121,7 @@ class Page1(QWidget):
 
         # 全選勾選匡
         self.select_all_checkbox = QCheckBox("全選", self)
-        self.select_all_checkbox.setChecked(True)  # 初始設置為選中狀態
+        self.select_all_checkbox.setChecked(False)  # 初始設置為選中狀態
         self.select_all_checkbox.setStyleSheet("font-size: 18px;")  # 設置字體大小
         self.select_all_checkbox.stateChanged.connect(self.toggle_select_all)
 
@@ -377,6 +377,7 @@ class Page1(QWidget):
         self.directory_watcher = DirectoryWatcher(caseImg)
         self.directory_watcher.file_changed.connect(self.reload_case_files)
         self.directory_watcher.start()
+        self.select_all_checkbox.stateChanged.connect(self.toggle_select_all)
 
     def update_visibility(self):
         if len(self.case_files) == 0:
