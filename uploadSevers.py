@@ -1,9 +1,9 @@
 import time
 import os
-from selenium import webdriver
+from selenium import webdriver 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.alert import Alert
-from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.service import Service 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException, NoAlertPresentException
@@ -14,7 +14,7 @@ urls=[]
 # 輪詢網頁
 def load_website_with_retry(urls, headless, timeout=10):
     try:
-        options = webdriver.ChromeOptions()
+        options = webdriver.ChromeOptions()  
         options.add_experimental_option('detach', True)
         
         # 無頭模式啟用
@@ -22,7 +22,7 @@ def load_website_with_retry(urls, headless, timeout=10):
             options.add_argument('--headless')
             options.add_argument('--disable-gpu')
 
-        chromedriver_path = os.path.abspath(os.path.join(os.getcwd(), resource_path("chromedriver-win64/chromedriver.exe")))
+        chromedriver_path = os.path.abspath(os.path.join(os.getcwd(), resource_path("chromedriver-win64/chromedriver.exe"))) # 引用ChromWedriver
         print('驅動器位置',chromedriver_path)
         s=Service(chromedriver_path)
 
