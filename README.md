@@ -1,5 +1,7 @@
 # **Report Upload System**
 
+![專案封面圖](resources/sysImg/report_upload.webp)
+
 > **系統說明**  
 > `Report Upload System` 是一款專為公家機關設計的系統介面，用於處理民眾檢舉案件。系統旨在簡化繁瑣的批量處理與上傳操作流程，提升工作效率。
 
